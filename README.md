@@ -132,7 +132,8 @@ class CreateCheeses < ActiveRecord::Migration[6.1]
       t.integer :price
       t.boolean :is_best_seller
 
-      t.timestamps
+      t.timestamps 
+      # //created at. updated at.
     end
   end
 end
